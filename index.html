@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma Flor Para Recordar</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="index.html"><img class="logo-site" src="img/logo.png" alt="Logo do site" title="Uma flor para recordar"></a>
+                </div>
+                <div class="col-4">
+                    <h3 class="nome-site">Uma Flor Para Recordar</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Menu-->
+    <nav>
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="desenvolvedores.html">Desenvolvedores</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Menu-->
+
+    <!--Carrousel-->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="img/sucu1.png" class="d-block w-100 alturaCarrousel" alt="Imagem 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Compre sua suculenta</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa similique id vitae, illo quasi debitis molestias, fugiat suscipit et, deleniti unde? Sit neque, adipisci voluptates exercitationem in dolorem voluptatum!</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/sucu2.png" class="d-block w-100 alturaCarrousel" alt="Imagem 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Aprenda como cuidar</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim nesciunt temporibus aliquid ducimus dicta, illum quia, molestias sunt nemo et pariatur dolorum quam! Eum nostrum quam doloremque assumenda rerum.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/sucu3.png" class="d-block w-100 alturaCarrousel" alt="Imagem 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tudo sobre suculentas e cactos</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis tempore fugit consequuntur? Quasi corporis aperiam deleniti deserunt ipsum. Quis odio aliquam, at quos tenetur sapiente voluptates obcaecati voluptatem rerum nobis?</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <!--Carrousel-->
+
+    <article>
+        <div class="container">
+            <div class="row cuidados">
+                <div class="col-3"><img class="img-cuidados" src="img/entrega.png"></div>
+                <div class="col-3"><img class="img-cuidados" src="img/cuidado-quebrar.png"></div>
+                <div class="col-3"><img class="img-cuidados" src="img/negocio.png"></div>
+                <div class="col-3"><img class="img-cuidados" src="img/suporte.png"></div>
+            </div>
+            <div class="row cuidados">
+                <div class="col-3">Entrega rápida</div>
+                <div class="col-3">Cuidado no tranporte</div>
+                <div class="col-3">Custo benefício</div>
+                <div class="col-3">Suporte online</div>
+            </div>
+        </div>
+
+        <!--Produtos-->
+        <div class="produtos">
+            <h3>Conheça nossos produtos:</h3>
+        </div>
+        <div id="bloco-produtos" class="bloco">
+        </div>
+        <div class="ver-mais">
+            <a href="produtos.html">
+                <h4>Ver mais</h4>
+            </a>
+        </div>
+        <!--Produtos-->
+
+        <!--Cuidados-->
+        <div class="container">
+            <div class="row cuidados">
+                <div class="col-3"><img class="img-cuidados" src="img/sol.png"></div>
+                <div class="col-3"><img class="img-cuidados" src="img/regador.png"></div>
+                <div class="col-3"><img class="img-cuidados" src="img/pragas.png"></div>
+                <div class="col-3"><img class="img-cuidados" src="img/fragil.png"></div>
+            </div>
+            <div class="row cuidados">
+                <div class="col-3">Levar ao sol uma vez ao dia</div>
+                <div class="col-3">Regar pelo menos três vezes na semana</div>
+                <div class="col-3">Cuidar possíveis pragas</div>
+                <div class="col-3">Extremo cuidado ao manejar para nao quebrar</div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <a href="index.html"><img class="logo-site" src="img/logo.png" alt="Logo do site" title="Uma flor para recordar"></a>
+                    </div>
+                    <div>
+                        <h3>Uma flor para recordar</h3>
+                    </div>
+                </div>
+            </div>
+            <p>Suculentas e Cactos.</p>
+
+            <ul class="redes">
+                <li>
+                    <p>Nos sigam nas Redes Sociais!</p>
+                </li>
+                <li>
+                    <a href="#"><img class="logos" src="img/face.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/umaflorpara_recordar/" target="_blank"><img class="logos" src="img/insta.png"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
